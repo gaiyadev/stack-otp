@@ -12,4 +12,3 @@ export const stackOtp = {
   ALPHANUMERIC_SPECIAL_CHAR_OTP,
   ALPHA_OTP,
 };
-console.log(stackOtp.NUMERIC_SPECIALCHAR_OTP(6));

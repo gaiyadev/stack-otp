@@ -49,4 +49,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/gaiyadev/stack-otp/blob/main/LICENSE.txt)

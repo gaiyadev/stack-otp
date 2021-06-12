@@ -20,13 +20,13 @@
  "author": {
       "name": "'Gaiya M. Obed"
     },
-    "homepage": "https://github.com/gaiyadev/vuetify-snippets",
+    "homepage": "https://github.com/gaiyadev/stack-otp",
     "bugs": {
-        "url": "https://github.com/gaiyadev/vuetify-snippets/issues"
+        "url": "https://github.com/gaiyadev/stack-otp/issues"
     },
      "repository": {
         "type": "git",
-        "url": "https://github.com/gaiyadev/vuetify-snippets"
+        "url": "https://github.com/gaiyadev/stack-otp/issues"
     },
     "license": "MIT"
 }
