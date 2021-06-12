@@ -1,9 +1,10 @@
 /**
- *  GENERATE ALPHANUMERIC OTP CODE
+ *  GENERATE ALPHANUMERIC SPECAIL CHAR OTP CODE
  * @param {*} length
  */
-export const ALPHANUMERIC_OTP = (length, upperCase) => {
-  var string = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+export const ALPHANUMERIC_SPECIAL_CHAR_OTP = (length, upperCase) => {
+  var string =
+    "@/&%$#><_|?}{]*)^-!=+([0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
   let OTP = "";
   var len = string.length;
   let isLength = length ? length : 4;

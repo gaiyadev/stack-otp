@@ -7,7 +7,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "otp",
+    "otp generator",
+    "node",
+    "node otp",
+    "express",
+    "express otp"
+  ],
   "author": "",
   "license": "ISC"
 }

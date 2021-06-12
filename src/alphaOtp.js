@@ -1,8 +1,8 @@
 /**
- *  GENERATE STRING OTP CODE
+ *  GENERATE ALPHA OTP CODE
  * @param {*} length
  */
-export const STRING_OTP = (length) => {
+export const ALPHA_OTP = (length, upperCase) => {
   var string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
   let OTP = "";
   var len = string.length;
@@ -10,5 +10,5 @@ export const STRING_OTP = (length) => {
   for (let i = 0; i < isLength; i++) {
     OTP += string[Math.floor(Math.random() * len)];
   }
-  return OTP;
+  return upperCase ? OTP.toUpperCase() : OTP;
 };
