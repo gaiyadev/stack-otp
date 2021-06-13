@@ -1,11 +1,11 @@
-import { NUMERIC_OTP } from "./src/numericOtp.js";
-import { ALPHANUMERIC_OTP } from "./src/alphanumericOtp.js";
-import { NUMERIC_SPECIALCHAR_OTP } from "./src/numericSpecailChar.js";
-import { ALPHANUMERIC_SPECIAL_CHAR_OTP } from "./src/alphanumericSpecialCharOtp.js";
-import { ALPHA_OTP } from "./src/alphaOtp.js";
+const NUMERIC_OTP = require("./src/numericOtp.js");
+const ALPHANUMERIC_OTP = require("./src/alphanumericOtp.js");
+const NUMERIC_SPECIALCHAR_OTP = require("./src/numericSpecailChar.js");
+const ALPHANUMERIC_SPECIAL_CHAR_OTP = require("./src/alphanumericSpecialCharOtp.js");
+const ALPHA_OTP = require("./src/alphaOtp.js");
 
 // EXPORTING
-export const stackOtp = {
+module.exports.stackOtp = {
   NUMERIC_OTP,
   ALPHANUMERIC_OTP,
   NUMERIC_SPECIALCHAR_OTP,

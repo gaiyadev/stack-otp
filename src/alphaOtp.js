@@ -2,7 +2,7 @@
  *  GENERATE ALPHA OTP CODE
  * @param {*} length
  */
-export const ALPHA_OTP = (length, upperCase) => {
+module.exports.ALPHA_OTP = (length, upperCase) => {
   var string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
   let OTP = "";
   var len = string.length;

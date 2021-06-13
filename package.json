@@ -1,11 +1,9 @@
 {
   "name": "stack-otp",
-  "publisher": "GaiyaObedMathias",
   "version": "1.0.0",
   "description": "Stack-OTP is an easy and powerful one-time password generator for NodeJs.",
   
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,8 +12,9 @@
     "otp generator",
     "node",
     "node otp",
-    "express",
-    "express otp"
+    "otp-code",
+    "express otp",
+    "express"
   ],
  "author": {
       "name": "'Gaiya M. Obed"

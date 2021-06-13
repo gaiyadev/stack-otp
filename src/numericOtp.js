@@ -2,7 +2,7 @@
  *  GENERATE NUMNERIC OTP CODE
  * @param {*} length
  */
-export const NUMERIC_OTP = (length) => {
+module.exports.NUMERIC_OTP = (length) => {
   var digits = "0123456789";
   let OTP = "";
   let isLength = length ? length : 4;

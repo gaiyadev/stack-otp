@@ -2,7 +2,7 @@
  *  GENERATE ALPHANUMERIC OTP CODE
  * @param {*} length
  */
-export const ALPHANUMERIC_OTP = (length, upperCase) => {
+module.exports.ALPHANUMERIC_OTP = (length, upperCase) => {
   var string = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
   let OTP = "";
   var len = string.length;
