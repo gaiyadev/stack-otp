@@ -1,6 +1,6 @@
 {
   "name": "stack-otp",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Stack-OTP is an easy and powerful one-time password generator for NodeJs.",
   "main": "index.js",
   "scripts": {
