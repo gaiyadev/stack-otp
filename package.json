@@ -1,6 +1,6 @@
 {
   "name": "stack-otp",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Stack-OTP is an easy and powerful one-time password generator for NodeJs.",
   "main": "index.js",
   "scripts": {
@@ -15,16 +15,16 @@
     "express otp",
     "express"
   ],
- "author": {
-      "name": "'Gaiya M. Obed"
-    },
-    "homepage": "https://github.com/gaiyadev/stack-otp",
-    "bugs": {
-        "url": "https://github.com/gaiyadev/stack-otp/issues"
-    },
-     "repository": {
-        "type": "git",
-        "url": "https://github.com/gaiyadev/stack-otp/issues"
-    },
-    "license": "MIT"
+  "author": {
+    "name": "'Gaiya M. Obed"
+  },
+  "homepage": "https://github.com/gaiyadev/stack-otp",
+  "bugs": {
+    "url": "https://github.com/gaiyadev/stack-otp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaiyadev/stack-otp/issues"
+  },
+  "license": "MIT"
 }
