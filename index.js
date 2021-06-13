@@ -5,10 +5,8 @@ const ALPHANUMERIC_SPECIAL_CHAR_OTP = require("./src/alphanumericSpecialCharOtp.
 const ALPHA_OTP = require("./src/alphaOtp.js");
 
 // EXPORTING
-module.exports.stackOtp = {
-  NUMERIC_OTP,
-  ALPHANUMERIC_OTP,
-  NUMERIC_SPECIALCHAR_OTP,
-  ALPHANUMERIC_SPECIAL_CHAR_OTP,
-  ALPHA_OTP,
-};
+module.exports.numericOtp = NUMERIC_OTP;
+module.exports.alphanumericOtp = ALPHANUMERIC_OTP;
+module.exports.numericSpecialCharOtp = NUMERIC_SPECIALCHAR_OTP;
+module.exports.alphanumericSpecialCharOtp = ALPHANUMERIC_SPECIAL_CHAR_OTP;
+module.exports.alphaOtp = alphaOtp;
