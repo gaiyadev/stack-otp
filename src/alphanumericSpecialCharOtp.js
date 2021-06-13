@@ -2,7 +2,7 @@
  *  GENERATE ALPHANUMERIC SPECAIL CHAR OTP CODE
  * @param {*} length
  */
-module.exports.ALPHANUMERIC_SPECIAL_CHAR_OTP = (length, upperCase) => {
+module.exports = (length, upperCase) => {
   var string =
     "@/&%$#><_|?}{]*)^-!=+([0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
   let OTP = "";

@@ -2,7 +2,7 @@
  *  GENERATE STRING OTP CODE
  * @param {*} length
  */
-module.exports.NUMERIC_SPECIALCHAR_OTP = (length) => {
+module.exports = (length) => {
   var string = "@/&%$#><_|?}{]*)^-!=+([0123456789";
   let OTP = "";
   var len = string.length;

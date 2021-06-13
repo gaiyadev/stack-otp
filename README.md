@@ -4,40 +4,37 @@ Stack-OTP is an easy and powerful one-time password generator for NodeJs. Stack-
 
 ## Installation
 
-Use the package manager [npm](https://pip.pypa.io/en/stable/) or [yarn](https://pip.pypa.io/en/stable/) to install stack-otp.
+Use the package manager [npm](https://www.npmjs.com/package/stack-otp/) or [yarn](https://www.npmjs.com/package/stack-otp) to install stack-otp.
 
 ```bash
-npm install stack-otp
+npm install stack-otp --save
 yarn install stack-otp
 ```
 
 ## Usage
 
 ```python
-import { stackOtp } from "stack-otp"
-#OR
 const stackOtp = require("stack-otp")
 
-
 # Numeric OTP
-stackOtp.NUMERIC_OTP() # returns numeric OTP with default length of 4
-stackOtp.NUMERIC_OTP(6) # return OTP with length of 6 (length >= 1)
+stackOtp.numericOtp() # returns numeric OTP with default length of 4
+stackOtp.numericOtp(6) # return OTP with length of 6 (length >= 1)
 
 #Alphanumeric OTP
-stackOtp.ALPHANUMERIC_OTP() # return alphanumeric OTP with default length of 4
-stackOtp.ALPHANUMERIC_OTP(6, true) # true means it should be uppercase while 6 is the given length
+stackOtp.alphanumericOtp() # return alphanumeric OTP with default length of 4
+stackOtp.alphanumericOtp(6, true) # true means it should be uppercase while 6 is the given length
 
 # Numeric and Special characters
-stackOtp.NUMERIC_SPECIALCHAR_OTP() # return numeric and special chars OTP with default length of 4
-stackOtp.NUMERIC_SPECIALCHAR_OTP(6)  # return Otp with length of 6 (length >= 1)
+stackOtp.numericSpecialCharOtp() # return numeric and special chars OTP with default length of 4
+stackOtp.numericSpecialCharOtp(6)  # return Otp with length of 6 (length >= 1)
 
 # Alhanumeric and special char
-stackOtp.ALPHANUMERIC_SPECIAL_CHAR_OTP() # for alphanumeric and special chars OTP with default length of 4
-stackOtp.ALPHANUMERIC_SPECIAL_CHAR_OTP(6, true) # true means it should be uppercase while 6 is the given length
+stackOtp.alphanumericSpecialCharOtp() # for alphanumeric and special chars OTP with default length of 4
+stackOtp.alphanumericSpecialCharOtp(6, true) # true means it should be uppercase while 6 is the given length
 
 # Apha OTP
-stackOtp.ALPHA_OTP() # return alpha OTP with default length of 4
-stackOtp.ALPHA_OTP(6, true) # true means it should be uppercase while 6 is the given length
+stackOtp.alphaOtp() # return alpha OTP with default length of 4
+stackOtp.alphaOtp(6, true) # true means it should be uppercase while 6 is the given length
 
 ```
 

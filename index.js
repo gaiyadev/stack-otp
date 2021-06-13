@@ -9,4 +9,4 @@ module.exports.numericOtp = NUMERIC_OTP;
 module.exports.alphanumericOtp = ALPHANUMERIC_OTP;
 module.exports.numericSpecialCharOtp = NUMERIC_SPECIALCHAR_OTP;
 module.exports.alphanumericSpecialCharOtp = ALPHANUMERIC_SPECIAL_CHAR_OTP;
-module.exports.alphaOtp = alphaOtp;
+module.exports.alphaOtp = ALPHA_OTP;
