@@ -4,7 +4,7 @@ Stack-OTP is an easy and powerful one-time password generator for NodeJs. Stack-
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/package/stack-otp/) or [yarn](https://www.npmjs.com/package/stack-otp) to install stack-otp.
+Use the package manager [npm](https://www.npmjs.com/package/stack-otp/) or [yarn](https://yarnpkg.com/package/stack-otp) to install stack-otp.
 
 ```bash
 npm install stack-otp --save
