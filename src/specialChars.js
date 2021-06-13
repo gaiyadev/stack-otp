@@ -1,9 +1,9 @@
 /**
- *  GENERATE NUMERIC OTP CODE
+ *  GENERATE SPECIAL CHAR OTP CODE
  * @param {*} length
  */
 module.exports = (length) => {
-  var digits = "0123456789";
+  var digits = "!@#$%^&*()+_-=}{[]|:;/?.><,`~'";
   let OTP = "";
   let isLength = length ? length : 4;
   for (let i = 0; i < isLength; i++) {

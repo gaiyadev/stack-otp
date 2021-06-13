@@ -8,7 +8,7 @@ Use the package manager [npm](https://www.npmjs.com/package/stack-otp/) or [yarn
 
 ```bash
 npm install stack-otp --save
-yarn install stack-otp
+yarn add stack-otp
 ```
 
 ## Usage
@@ -35,6 +35,10 @@ stackOtp.alphanumericSpecialCharOtp(6, true) # true means it should be uppercase
 # Apha OTP
 stackOtp.alphaOtp() # return alpha OTP with default length of 4
 stackOtp.alphaOtp(6, true) # true means it should be uppercase while 6 is the given length
+
+# Special Char OTP
+stackOtp.specialChars() # return alpha OTP with default length of 4
+stackOtp.specialChars(6) # return otp with length 6
 
 ```
 
